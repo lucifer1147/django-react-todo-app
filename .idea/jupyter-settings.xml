@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="cf606e0ba307a04245320a06fd0babf35426f0a83e2da147" />
+          <option name="urlString" value="http://127.0.0.1:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="cf606e0ba307a04245320a06fd0babf35426f0a83e2da147" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="2a7d182a4b7b5e5ad0ebd044855b6a53173223bd23c11577" />
+          <option name="urlString" value="http://localhost:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="2a7d182a4b7b5e5ad0ebd044855b6a53173223bd23c11577" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="D:/Applications/Programming_Applications/ProgrammingProjects/PythonProjects/MachineLearning/07_SeventhMLModel_HandWritingRecog/.idea/SeventhMLModel_HandWritingRecog.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="2a7d182a4b7b5e5ad0ebd044855b6a53173223bd23c11577" />
+              <option name="urlString" value="http://localhost:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="2a7d182a4b7b5e5ad0ebd044855b6a53173223bd23c11577" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="D:/Applications/Programming_Applications/ProgrammingProjects/PythonProjects/Numpy/.idea/Numpy.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="afc8056b6588560dbcb41e5b38521f708ef2ec469a772e15" />
+              <option name="urlString" value="http://localhost:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="afc8056b6588560dbcb41e5b38521f708ef2ec469a772e15" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="G:/ProgrammingProjects/PythonProjects/MachineLearning/REF_BK_Models/CH-2/CanadianHousePricesPrediction/.idea/CanadianHousePricesPrediction.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="4cf2587e9041d6304c0426b39664e68dd1f166dcac7bdab9" />
+              <option name="urlString" value="http://localhost:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="4cf2587e9041d6304c0426b39664e68dd1f166dcac7bdab9" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
