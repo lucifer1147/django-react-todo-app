@@ -29,7 +29,7 @@ function ListWrapper(props) {
 
     return (
         <div id="list-wrapper"
-             className="bg-blue-100 w-1/2 px-16 py-16 shadow-black shadow-2xl rounded-xl overflow-x-auto">
+             className="bg-indigo-100 dark:bg-indigo-950 w-1/2 px-16 py-16 shadow-black shadow-2xl rounded-xl overflow-x-auto">
             <form action="" className="sticky h-22 px-12 pb-10 w-full">
                 <input type="text" name="search-field" value={search} onChange={handleSearchUpdate}
                        className="focus:outline-0 px-3 py-1 w-full rounded-md" placeholder="Search Tasks Here..."/>
