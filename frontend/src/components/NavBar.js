@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function NavBar(props) {
     return (<div
-        className="sticky top-[-60px] z-20 px-24 py-6 bg-gray-100 flex flex-wrap justify-around shadow-2xl items-center dark:bg-slate-900 dark:text-white">
+        className="sticky top-[-60px] z-20 px-24 py-6 bg-gray-100 flex flex-wrap justify-around shadow-2xl items-center dark:bg-slate-900 dark:text-white bg-opacity-80 backdrop-blur-sm dark:bg-opacity-80">
         <div className="w-full justify-center items-center mb-6">
             <h1 className="text-2xl font-extrabold text-center">TodoTracker</h1>
         </div>

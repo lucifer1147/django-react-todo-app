@@ -64,9 +64,9 @@ function TaskList(props) {
                          TitleLength={TitleLength} DescriptionLength={DescriptionLength}
                          changeTitleLength={changeTitleLength} changeDescriptionLength={changeDescriptionLength}/>
             <ListWrapper changeEditingStatus={changeEditingStatus} currActiveItem={currActiveItem}
-                         ActiveItem={ActiveItem}
-                         TodoList={TodoList} EditingTask={EditingTask} getCookie={getCookie}
-                         setActiveItem={setActiveItem}/>
+                         ActiveItem={ActiveItem} changeTitleLength={changeTitleLength}
+                         changeDescriptionLength={changeDescriptionLength} TodoList={TodoList} EditingTask={EditingTask}
+                         getCookie={getCookie} setActiveItem={setActiveItem}/>
         </div>
     )
 }
