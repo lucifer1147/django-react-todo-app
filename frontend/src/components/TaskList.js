@@ -58,7 +58,7 @@ function TaskList(props) {
     }
 
     return (
-        <div id="task-container" className="px-36 py-12 flex gap-x-10 h-[82vh]">
+        <div id="task-container" className="px-36 py-12 flex gap-x-10 h-[100vh]">
             <FormWrapper ActiveItem={ActiveItem} EditingTask={EditingTask} getCookie={getCookie}
                          setActiveItem={setActiveItem} changeEditingStatus={changeEditingStatus}
                          TitleLength={TitleLength} DescriptionLength={DescriptionLength}
