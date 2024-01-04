@@ -63,13 +63,13 @@ function FormWrapper(props) {
 
     return (
         <div id="form-wrapper"
-             className="w-1/2 bg-blue-100 px-16 py-16 shadow-black shadow-2xl rounded-xl overflow-x-auto">
+             className="w-1/2 bg-indigo-100 dark:bg-indigo-950 px-16 py-16 shadow-black shadow-2xl rounded-xl overflow-x-auto dark:text-white">
             <form id="task-form" className="flex flex-col items-start" onSubmit={handleSubmit} method="POST"
                   action="/">
 
                 <div className="font-semibold">Title:</div>
                 <input type="text" name="task-title" id="task-title"
-                       className="w-full border-2 border-gray-400 font-mono font-bold text-black py-1 px-2"
+                       className="w-full border-2 border-gray-400 font-mono font-bold text-black py-1 px-2 dark:text-white dark:bg-gray-900"
                        placeholder="Your Task Title Here..."
                        value={props.ActiveItem.title}
                        onChange={(event) => {
@@ -83,7 +83,7 @@ function FormWrapper(props) {
 
                 <div className="font-semibold">Description:</div>
                 <textarea name="text-desc" id="task-desc" style={{resize: "none"}}
-                          className="w-full h-28 border-2 border-gray-400 font-mono font-bold text-black py-1 px-2"
+                          className="w-full h-28 border-2 border-gray-400 font-mono font-bold text-black py-1 px-2 dark:bg-gray-900 dark:text-white"
                           placeholder="Your Task Description Here..." value={props.ActiveItem.description}
                           onChange={(event) => {
                               handleChange(event, 'text-area')
@@ -106,7 +106,7 @@ function FormWrapper(props) {
 
                 <input type="submit" value={props.EditingTask ? "Save Task" : "Create Task"}
                        disabled={props.ActiveItem.title === ''}
-                       className="bg-orange-500 px-5 py-2 text-white font-bold rounded-md w-full hover:bg-orange-600 disabled:bg-orange-400"/>
+                       className="bg-orange-500 dark:bg-pink-600 dark:disabled:bg-pink-500 dark:hover:bg-pink-700 px-5 py-2 text-white font-bold rounded-md w-full hover:bg-orange-600 disabled:bg-orange-400"/>
             </form>
         </div>
     )
