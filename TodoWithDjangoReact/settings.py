@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'todoTracker.apps.TodotrackerConfig',
+    'authentication.apps.AuthenticationConfig',
     'corsheaders',
     'rest_framework'
 ]
